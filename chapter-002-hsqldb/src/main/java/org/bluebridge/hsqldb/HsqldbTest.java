@@ -4,7 +4,6 @@ import java.sql.*;
 
 public class HsqldbTest {
     public static void main(String[] args) {
-
         try {
             Connection conn = DriverManager.getConnection("jdbc:hsqldb:mem:hsqldb", "root", "root");
             Statement stat = conn.createStatement();
