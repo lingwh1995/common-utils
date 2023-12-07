@@ -18,8 +18,8 @@ pipeline {
         echo '${GIT_COMMIT_MSG}'
         sh 'git fetch https://lingwh1995:${GITEE_TOKEN}@gitee.com/lingwh1995/common-utils.git'
         sh 'git push -f https://lingwh1995:${GITEE_TOKEN}@gitee.com/lingwh1995/common-utils.git HEAD:master'
-        //sh 'git fetch https://lingwh1995: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@github.com/lingwh1995/common-utils.git'
-        //sh 'git push -f https://lingwh1995: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@github.com/lingwh1995/common-utils.git HEAD:master'
+        //sh 'git fetch https://lingwh1995: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@github.com/lingwh1995/common-utils.git'
+        //sh 'git push -f https://lingwh1995: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@github.com/lingwh1995/common-utils.git HEAD:master'
         echo '完成文件推送...'
       }
     }
